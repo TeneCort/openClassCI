@@ -1,0 +1,9 @@
+language: php
+php:
+	- '9.0'
+	- '7.1'
+
+script:
+	- composer install
+	- vendor/bin/php
+	
